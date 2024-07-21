@@ -6,7 +6,7 @@ name: Build and Release YTMusicUltimate
 on:
   workflow_dispatch:
     inputs: 
-      decrypted_youtube_music_url:
+      decrypted_youtube_music_url:https://www.dropbox.com/scl/fi/6hq2jzw81tou17v8gy8jn/com.google.ios.youtubemusic_7.10_und3fined.ipa?rlkey=bca790gvp0rshbkqzrmxgwouh&st=zyi5xf05&dl=0
         description: "The direct URL to the decrypted YouTube Music ipa (Upload a decrypted .ipa file to Dropbox and input its URL here.)"
         default: ""
         required: true
